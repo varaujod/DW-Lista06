@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samari</title>
+    <link rel="stylesheet" href="../estilos/layout.css">
+    <link rel="stylesheet" href="../estilos/formulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../imagens/logo_samari_iY7_icon.ico" type="image/x-icon">
+</head>
+
+<body class="kodchasan-medium">
+    <header>
+        <img src="../imagens/samari.png" alt="Logo Samari" width="100px">
+        <h2>A maior empresa de telefonia da Europa, agora no Brasil!</h2>
+    </header>
+
+    <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="">Quem somos?</a>
+        <a href="./contato.html">Contato</a>
+        <a href="https://maps.app.goo.gl/jVqK18sq2ynJi7ou7">Localização</a>
+    </nav>
+
+    <!-- Tive que usar div neste caso, porque o css do layout inicial está modificando o formulário com o grid da página inicial, 
+        por ser uma section, então tive que colocar em div. -->
+
+    <main>
+        <div id="formulario">
+            <h1>Contato</h1>
+            <h3>Se desejar entar em contato conosco, preencha o formulário</h3>
+            <form action="">
+               <label for="nome">Nome (OBRIGATÓRIO)</label>
+               <input type="text" id="nome" name="nome" required>
+               <label for="email">Email (OBRIGATÓRIO)</label>
+               <input type="email" id="email" name="email" required>
+               <label for="motivo">Motivo do Contato (OBRIGATÓRIO)</label>
+               <select name="motivo" id="motivo" required>
+                    <option value="selecione">Selecione a opção desejada</option>
+                    <option value="duvidas">Duvidas</option>
+                    <option value="reclamações">Reclamações</option>
+                    <option value="elogios">Elogios</option>
+                    <option value="contratar">Contratar nossos planos</option>
+               </select>
+               <label for="comentario">Comentário (OBRIGATORIO)</label>
+               <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+
+               <br>
+               <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        2024 SAMARI TECHNOLIGH CIA. - BY Vodafonte Europa.
+    </footer>
+</body>
+</html>

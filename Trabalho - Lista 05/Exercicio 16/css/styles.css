@@ -1,0 +1,23 @@
+img{
+    width: 150px;
+    height: 150px;
+    margin-right: 18px;
+}
+
+section{
+    margin: 10px;
+    width: 1500px;
+}
+
+article{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+p{
+    margin: 0;
+}
+
+
+

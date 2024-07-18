@@ -1,0 +1,33 @@
+#cadastro{
+    max-width: 1500px;
+    padding: 0px;
+    display: flex;
+}
+
+#cadastro section{
+    border: 1px solid #0000;
+}
+
+#cadcolor{ 
+    width: 300px;
+    background-color: aqua;
+    font-weight: bold;
+}
+
+#cadcolor2{
+    width: 150px;
+    background-color: blue;
+}
+
+#formulario{
+    width: 500px;
+}
+
+label{
+    padding-right: 10px;
+}
+
+.p1
+{
+    display: inline;    
+}

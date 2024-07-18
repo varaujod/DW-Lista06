@@ -1,0 +1,19 @@
+#personal{
+    display: flex;  
+}
+
+fieldset{
+    display: block;
+}
+
+form{
+    display: inline-flex;
+}
+
+label, input{
+    width: 100px;
+}
+
+#zip{
+    width: 50px;
+}
